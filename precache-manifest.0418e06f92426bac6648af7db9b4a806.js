@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e640577b4ce47e95b0c92b5fbc4a9016",
+    "revision": "0b31e84bb320b8f4292c9b835ad32ab2",
     "url": "/index.html"
   },
   {
-    "revision": "281c7b1ccbd3e3d3f8fe",
+    "revision": "944f8e4e89a1223fe9be",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "925117d5ee8b79f596c6",
-    "url": "/static/css/4.a922a401.chunk.css"
+    "revision": "3035b4923859f5d156ab",
+    "url": "/static/css/4.6308d35a.chunk.css"
   },
   {
-    "revision": "f3e60da1bff6f5594df9",
-    "url": "/static/css/main.bd4e58e4.chunk.css"
+    "revision": "00ceb86d0130d5406765",
+    "url": "/static/css/main.f8651c2c.chunk.css"
   },
   {
-    "revision": "00e179b4b63a5d2ff340",
-    "url": "/static/js/2.11820b79.chunk.js"
+    "revision": "ed0ac9c2c8eedc110052",
+    "url": "/static/js/2.6768cd1c.chunk.js"
   },
   {
-    "revision": "281c7b1ccbd3e3d3f8fe",
-    "url": "/static/js/3.ccddb23c.chunk.js"
+    "revision": "944f8e4e89a1223fe9be",
+    "url": "/static/js/3.4e204503.chunk.js"
   },
   {
-    "revision": "925117d5ee8b79f596c6",
-    "url": "/static/js/4.4469eaec.chunk.js"
+    "revision": "3035b4923859f5d156ab",
+    "url": "/static/js/4.e128870a.chunk.js"
   },
   {
-    "revision": "f3e60da1bff6f5594df9",
-    "url": "/static/js/main.b9bb993b.chunk.js"
+    "revision": "00ceb86d0130d5406765",
+    "url": "/static/js/main.d061a6db.chunk.js"
   },
   {
-    "revision": "919e3ccb682865719dbb",
-    "url": "/static/js/runtime-main.82590a60.js"
+    "revision": "da46d2a753d5e582d6c9",
+    "url": "/static/js/runtime-main.0db0821d.js"
   },
   {
     "revision": "a0c8a60ef78cb67da5b29dae4c19624d",
@@ -70,6 +70,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
     "url": "/static/media/airbnbLogo.c59720d6.png"
+  },
+  {
+    "revision": "09a2f87a4b44df349134ac204554b8e1",
+    "url": "/static/media/atblogo.09a2f87a.jpg"
+  },
+  {
+    "revision": "a3025828b24b6e116c05230f0c9bf555",
+    "url": "/static/media/atblogo1.a3025828.png"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -208,8 +216,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/static/media/talksCardBack.13780cdd.svg"
+    "revision": "493f0ef3997735a62a351c42d8afca39",
+    "url": "/static/media/talksCardBack.493f0ef3.svg"
   },
   {
     "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
@@ -222,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f8b87fcf9ca99f4084235caa6e8485cd",
     "url": "/static/media/team.f8b87fcf.svg"
+  },
+  {
+    "revision": "4e1a2838673a5754fec14d5cf98b3f39",
+    "url": "/static/media/teamm.4e1a2838.svg"
   },
   {
     "revision": "58b9543ffdca32e8eaa3047b2d025cb0",
