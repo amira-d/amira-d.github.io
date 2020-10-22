@@ -9,33 +9,31 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Amira Doghri",
   title: "Bonjour , je m'appelle Amira",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  subTitle: emoji("Eleve ingénieur en informatique  🚀 à ESPRIT , spécialité BI ."),
+  resumeLink: "https://drive.google.com/file/d/170v9_NgaOBG0aHgJilFOlJ5pSVKzplA3/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/amira-d",
+  linkedin: "https://www.linkedin.com/in/amiradoghri/",
+  gmail: "doghriamira@gmail.com",
+  facebook: "https://www.facebook.com/amiradoghri",
+  instagram:"https://www.instagram.com/amira.doghri",
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Mes compétences",
+  subTitle: "Ce que j'ai appris tout au long de mon parcours académique ",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Developpement web et mobile"),
+    emoji("⚡ Big Data et Business Intelligence "),
+    emoji("⚡ Graphic Design")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -51,10 +49,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -63,37 +57,41 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "symfony",
+      fontAwesomeClassname: "fab fa-symfony"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "java/JEE/Spring/hibernate/jsf",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "c",
+      fontAwesomeClassname: "fab fa-cuttlefish"
+    },
+    {
+      skillName: "c++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
+    },
+    {
+      skillName: "sql-database / Oracle",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "sql-database / Oracle",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Adobe Illustrator/Photoshop/AfterEffects",
+      fontAwesomeClassname: "fab fa-adobe"
+    },
   ]
 };
 
@@ -103,25 +101,23 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Ecole Supérieure Privée d'ingénierie et des Technologies - ESPRIT",
+      logo: require("./assets/images/espritLogo1.jpeg"),
+      subHeader: "Diplôme d'ingenieur en informatique",
+      duration: "Septembre 2017 - Courant",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "2 années Préparaoire intégré",
+        "3 années cycle ingénieur, spécialité BI",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
+      schoolName: "Lycée ElWafa",
+      logo: require("./assets/images/lyceeLogo.jpg"),
+      subHeader: "Baccalauréat en Mathématiques ",
+      duration: "Septembre 2016 - Juillet 2017",
+      desc: "",
+      
     }
   ]
 }

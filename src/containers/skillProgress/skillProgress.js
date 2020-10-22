@@ -10,7 +10,7 @@ export default function StackProgress() {
             <div className="skills-container">
 
                 <div className="skills-bar">
-                    <h1 className="skills-heading">Proficiency</h1>
+                    <h1 className="skills-heading">Langues</h1>
                     {techStack.experience.map((exp) => {
                         const progressStyle = {
                             width: exp.progressPercentage
@@ -27,7 +27,7 @@ export default function StackProgress() {
                 </div>
 
                 <div className="skills-image">
-                    <img alt="Skills" src={require("../../assets/images/skill.svg")} />
+                    <img alt="Skills" src={require("../../assets/images/team.gif")} />
                 </div>
 
             </div>
