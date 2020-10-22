@@ -117,7 +117,7 @@ const educationInfo = {
       subHeader: "Baccalauréat en Mathématiques ",
       duration: "Septembre 2016 - Juillet 2017",
       desc: "",
-      
+
     }
   ]
 }
@@ -128,16 +128,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Arabe",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Français",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Anglais",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Turque",
+      progressPercentage: "30%"
+    },
+    {
+      Stack: "Allemand",
+      progressPercentage: "10%"
     }
   ]
 };
@@ -149,29 +157,32 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Stagiaire au département informatique",
+      company: "ATB - Siège Tunis",
+      companylogo: require("./assets/images/atblogo.jpg"),
+      date: "Juillet 2020 – Août 2020",
+      desc: "Stage de deux mois , on m'a  proposé un projet d'une application web bancaire pour gestion des comptes , transactions et simulation des crédits pour le client et le banquier .",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Application Web JEE / Hibernate / JSF",
+        "Automatisation des tâches admin : RPA"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Stagiaire Developpement Web",
+      company: "IBcomprod Lac 2 ",
+      companylogo: require("./assets/images/ibcomprod logo.jpg"),
+      date: "Juillet 2019",
+      desc: "Maintenance et amélioration de plusieurs sites web CMS "    },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Stagiaire Marketing",
+      company: "Dabchy.com - Tunis",
+      companylogo: require("./assets/images/dabchylogo.png"),
+      date: "Juillet 2018 – Août 2020",
+     descBullets: [
+    "   La participation à la mise en place et l'application de la stratégie Marketing digitale au sein de la société - La création du contenu pour les campagnes marketing ( réseaux sociaux et Fb Ads ) ",
+    "   L'animation de nos réseaux sociaux ( comptes FB et Instagram ) ",
+    "   La conception de certaines interfaces de l'application mobile en vue d'optimiser le UI/UX ",
+        ]
     },
   ]
 };
@@ -181,7 +192,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "amira-d", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -288,10 +299,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me "),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+216-54439062",
+  email_address: "doghriamira@gmail.com"
 };
 
 //Twitter Section
