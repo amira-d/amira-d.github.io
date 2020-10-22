@@ -66,7 +66,7 @@ git@2.17.1 or higher
 ```
 
 
-## How To Use 
+## How To Use
 
 From your command line, clone and run developerFolio:
 
@@ -207,7 +207,7 @@ You could also host directly with Netlify by linking your own repository.
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
-## Technologies Used 
+## Technologies Used
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
@@ -234,7 +234,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 - Add More Sections
 
-## Project Maintainers 
+## Project Maintainers
 
 <table>
   <tr>
@@ -245,7 +245,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
   </tr>
 </table>
 
-## Contributors 
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
