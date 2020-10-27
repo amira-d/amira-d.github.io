@@ -33,9 +33,9 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Me contacter" href="#contact" />
                 <Button
-                  text="See my resume"
+                  text="Voir mon CV"
                   newTab={true}
                   href={greeting.resumeLink}
                 />
@@ -45,7 +45,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="amira  on desk"
-              src={require("../../assets/images/ondesk.png")}
+              src={require("../../assets/images/files.png")}
             ></img>
           </div>
         </div>

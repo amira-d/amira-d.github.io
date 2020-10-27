@@ -196,20 +196,23 @@ const openSource = {
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
+// Blogs Section
 
-// Some Big Projects You have worked with your company
+const blogSection = {
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
+  title: "",
+  subtitle: ".",
+
+  blogs: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "",
+      description: ""
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      url: "https://medium.com/@Amira Doghri/why-react-is-the-best-5a97563f423e",
+      title: "",
+      description: ""
     }
   ]
 };
@@ -218,59 +221,62 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji(" Certifications 🏆 "),
+  subtitle: "Les Certifications que j'ai obtenu : Challenges et cours en ligne !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "She Solves! ",
+      subtitle: "Compétition de programmation.",
+      image: require("./assets/images/shesolves.jpg"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://drive.google.com/file/d/1_9_gDwHdciHLGzL1Y3Ubc3TZ46CO9WsB/view?usp=sharing" },
+
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Certificat Coursera - Cisco",
+      subtitle: "Data Communications and Network Services.",
+      image: require("./assets/images/cisco.jpg"),
+      footerLink: [
+        { name: "Certificat", url: "https://drive.google.com/file/d/1OcTdJYtJ8egiib185tF8CkeDe6_uSwDH/view?usp=sharing" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Certificat Coursera - Google",
+      subtitle: "Technical Support Fundamentals",
+      image: require("./assets/images/google.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Certification", url: "https://drive.google.com/file/d/17nwfKYppXaEodH0Y7lpTccP72cyuUqto/view?usp=sharing" },
+      ]
+    },
+    {
+      title: "Certificat Coursera - deeplearning.ai",
+      subtitle: "AI for everyone",
+      image: require("./assets/images/deeplearning.png"),
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/1PoN6mLQHMm3pMSrjwsE9IpDoNPtMB5UG/view?usp=sharing" },
       ]
     }
   ]
 };
 
-// Blogs Section
-
-const blogSection = {
-
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
+// Some Big Projects You have worked with your company
+const bigProjects = {
+  title: "Clubs",
+  subtitle: "",
+  projects: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      image: require("./assets/images/enactus.png"),
+      link: "https://www.facebook.com/EnactusEsprit/"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      image: require("./assets/images/rotaract.png"),
+      link: "https://www.facebook.com/rotaract.technopole.elghazela"
     }
   ]
 };
+
 
 // Talks Sections
 
@@ -282,7 +288,7 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://bit.ly/Amira Doghri-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ]
