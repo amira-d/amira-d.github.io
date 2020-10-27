@@ -7,7 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Podcast() {
   const { isDark } = useContext(StyleContext);
   return (
-  <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={1000} distance="20px">
       <div className="main">
         <div className="podcast-header">
           <h1 className="podcast-header-title">{podcastSection.title}</h1>
@@ -21,15 +21,8 @@ export default function Podcast() {
             {podcastSection.subtitle}
           </p>
         </div>
-
-      <div className="podcast-main-div">
-    <img src={require("../../assets/images/camp.svg")} style={{height:200}}></img>
-      <img src={require("../../assets/images/bike.png")} style={{height:200}}></img>
-        <img src={require("../../assets/images/workout.png")} style={{height:200}}></img>
-          <img src={require("../../assets/images/travel.svg")} style={{height:200}}></img>
-
-
-        /*    {podcastSection.podcast.map((podcastLink) => {
+        <div className="podcast-main-div">
+          {podcastSection.podcast.map((podcastLink) => {
             return (
               <div>
                 <iframe
@@ -40,7 +33,7 @@ export default function Podcast() {
                 ></iframe>
               </div>
             );
-          })}*/
+          })}
         </div>
       </div>
     </Fade>

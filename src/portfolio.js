@@ -8,8 +8,8 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Amira Doghri",
-  title: "Bonjour , je suis DOGHRI Amira",
-  subTitle: emoji("Eleve ingénieur en informatique  🚀 à ESPRIT , spécialité Business Intelligence / Informatique Décisionnel."),
+  title: "Bonjour , je m'appelle Amira",
+  subTitle: emoji("Eleve ingénieur en informatique  🚀 à ESPRIT , spécialité BI ."),
   resumeLink: "https://drive.google.com/file/d/170v9_NgaOBG0aHgJilFOlJ5pSVKzplA3/view?usp=sharing"
 };
 
@@ -197,22 +197,22 @@ const openSource = {
 };
 
 // Blogs Section
-//Experiences personnelles
+
 const blogSection = {
 
-  title: "Expériences Personnelles",
-  subtitle: "Mes activitès hors parcours académique qui m'ont marqué.  ",
+  title: "",
+  subtitle: ".",
 
   blogs: [
     {
-      url: "https://fellows.taefund.org/profiles.php?id_article=100",
-      title: "TAEF Fellowship",
-      description: "Le Tunisian American Entreprise Fund Fellowship est un programme qui permet d'intégrer des startup et des PME à travers le TAEF."
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "",
+      description: ""
     },
     {
-      url: "https://drive.google.com/file/d/1hu582CuSLremI9EfqT34itW5KNofNV5Q/view?usp=sharing",
-      title: "Stage Volontaire en Turquie - Istanbul",
-      description: "Programme de stage dans lequel je fesais du coaching à des lycées pour pratiquer la langue anglaise à travers de différentes activitès."
+      url: "https://medium.com/@Amira Doghri/why-react-is-the-best-5a97563f423e",
+      title: "",
+      description: ""
     }
   ]
 };
@@ -227,10 +227,10 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "She Solves! ",
-      subtitle: "Compétition de programmation.           ",
+      subtitle: "Compétition de programmation.",
       image: require("./assets/images/shesolves.jpg"),
       footerLink: [
-        { name: "Certificat", url: "https://drive.google.com/file/d/1_9_gDwHdciHLGzL1Y3Ubc3TZ46CO9WsB/view?usp=sharing" },
+        { name: "Certification", url: "https://drive.google.com/file/d/1_9_gDwHdciHLGzL1Y3Ubc3TZ46CO9WsB/view?usp=sharing" },
 
       ]
     },
@@ -247,15 +247,15 @@ const achievementSection = {
       subtitle: "Technical Support Fundamentals",
       image: require("./assets/images/google.png"),
       footerLink: [
-        { name: "Certificat", url: "https://drive.google.com/file/d/17nwfKYppXaEodH0Y7lpTccP72cyuUqto/view?usp=sharing" },
+        { name: "Certification", url: "https://drive.google.com/file/d/17nwfKYppXaEodH0Y7lpTccP72cyuUqto/view?usp=sharing" },
       ]
     },
     {
       title: "Certificat Coursera - deeplearning.ai",
-      subtitle: "AI for everyone                ",
+      subtitle: "AI for everyone",
       image: require("./assets/images/deeplearning.png"),
       footerLink: [
-        { name: "Certificat", url: "https://drive.google.com/file/d/1PoN6mLQHMm3pMSrjwsE9IpDoNPtMB5UG/view?usp=sharing" },
+        { name: "Certification", url: "https://drive.google.com/file/d/1PoN6mLQHMm3pMSrjwsE9IpDoNPtMB5UG/view?usp=sharing" },
       ]
     }
   ]
@@ -264,7 +264,7 @@ const achievementSection = {
 // Some Big Projects You have worked with your company
 const bigProjects = {
   title: "Clubs",
-  subtitle: "Les clubs que j'ai rejoint lors de mes années universitaires.",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/enactus.png"),
@@ -281,15 +281,15 @@ const bigProjects = {
 // Talks Sections
 
 const talkSection = {
-  title: "Références",
-  subtitle: emoji("Au long de mon parcours , j'ai été assez chanceuse à croiser des gens qui ont reconnu mon potentiel 😅"),
+  title: "TALKS",
+  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
 
   talks: [
     {
-      title: "Amani Mansouri,Co-fondatrice et CEO de Dabchy.com ",
-      subtitle: "Elle a parlé de mon expérience au sein de Dabchy.com.",
-      slides_url: "https://soundcloud.com/humansinbusiness/2-up-with-flat6labs?fbclid=IwAR2BmfEUO-NkIdD4vMr3STunWTLkph91S6fOQZ9aocJu5iMkEExsBxWGrOE",
-      event_url: "https://drive.google.com/file/d/1oIEZO32C2TvDKHbgNCkQJsWVWqVIXx6H/view?usp=sharing"
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/Amira Doghri-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ]
 };
@@ -297,16 +297,16 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Mes intérêts 🎙️"),
-  subtitle: "",
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [""]
+  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
 
 const contactInfo = {
-  title: emoji("Me contacter?"),
-  subtitle: "Vous voulez me proposer un projet ou juste se rensigner sur quelque chose ? Je suis toujours joignable à travers ces coordonnées.",
+  title: emoji("Contact Me "),
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+216-54439062",
   email_address: "doghriamira@gmail.com"
 };
@@ -315,7 +315,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : ""//Replace "twitter" with your twitter username without @
+  userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
