@@ -29,18 +29,7 @@ export default function Podcast() {
           <img src={require("../../assets/images/travel.svg")} style={{height:200}}></img>
 
 
-        /*    {podcastSection.podcast.map((podcastLink) => {
-            return (
-              <div>
-                <iframe
-                  className="podcast"
-                  src={podcastLink}
-                  frameborder="0"
-                  scrolling="no"
-                ></iframe>
-              </div>
-            );
-          })}*/
+  
         </div>
       </div>
     </Fade>
