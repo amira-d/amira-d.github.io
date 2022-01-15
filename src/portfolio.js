@@ -41,7 +41,7 @@ const skillsSection = {
     ),
     emoji("⚡ Working with Big data and Business intelligence tools"),
     emoji(
-      "⚡ Graphic Design"
+      "⚡ Programming"
     )
   ],
 
@@ -50,12 +50,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Dash",
-      fontAwesomeClassname: "fab fa-bar-chart"
+      skillName: "Plotly Dash",
+      fontAwesomeClassname: "far fa-chart-bar"
+    },
+    {
+      skillName: "PowerBI",
+      fontAwesomeClassname: "fas fa-signal"
+    },
+    {
+      skillName: "Talend",
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
       skillName: "JavaScript",
@@ -82,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-symfony"
     },
      {
-      skillName: "java/JEE/Spring/hibernate/jsf",
+      skillName: "Java/JEE Frameworks",
       fontAwesomeClassname: "fab fa-java"
     },
     {
@@ -101,10 +109,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "Adobe Illustrator/Photoshop/AfterEffects",
-      fontAwesomeClassname: "fab fa-adobe"
-    },
+
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -143,15 +148,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Plotly Dash application development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Data analysis",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Machine learning",
       progressPercentage: "60%"
     }
   ],
@@ -163,23 +168,23 @@ const languages = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
      {
-      Language: "Arabe",  //Insert stack or technology you have experience in
+      Language: "Arabic",  //Insert stack or technology you have experience in
       Proficiency: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Language: "Français",
+      Language: "French",
       Proficiency: "60%"
     },
     {
-      Language: "Anglais",
+      Language: "English",
       Proficiency: "70%"
     },
     {
-      Language: "Turque",
+      Language: "Turkish",
       Proficiency: "30%"
     },
     {
-      Language: "Allemand",
+      Language: "German",
       Proficiency: "10%"
     }
   ],
@@ -192,51 +197,38 @@ const workExperiences = {
       {
       role: "Dash Solutions Developer",
       company: "Plotly",
-      companylogo: require("./assets/images/plotly_logo_new-01.png"),
-      date: "September 2021 – Current",
+      companylogo: require("./assets/images/square icon.png"),
+      date: "June 2021 – Current",
       desc: "",
       descBullets: [
-
-      ]
-    },
-      {
-      role: "Dash solutions intern",
-      company: "Plotly",
-      companylogo: require("./assets/images/plotly_logo_new-01.png"),
-      date: "June 2021 – August 2021",
-      desc: "",
-      descBullets: [
-        "",
+        "Connect to data sources for  Data Visualization",
+        "Work within specs provided by customer to develop Dash applications"
       ]
     },
     {
       role: "Software engineering intern",
-      company: "Arab Tunisian Bank - HQ Tunis",
+      company: "ATBank - HQ Tunis",
       companylogo: require("./assets/images/atblogo.jpg"),
       date: "Juillet 2020 – Août 2020",
       desc: "A 2 months internship where I worked on a banking web applictaion project.",
-      descBullets: [
-        "Bank accounts and transactions management , loan simulation process.",
-        "Tools: JEE / Hibernate / JSF",
-        "Extra feature: RPA task automation for bankers"
-      ]
+      // descBullets: [
+      //   "Developed a Java EE banking web application(JEE / Hibernate and JSF ) to make daily customer and banker’s operations easier.",
+      //   "Implemented RPA (Robotic Process Automation ) for repetitive tasks using UI Path."
+
+      // ]
     },
     {
       role: "Web development intern",
       company: "IbComProd- Tunis",
       companylogo: require("./assets/images/ibcomprod logo.jpg"),
       date: "July 2019",
-      desc: "Maintain  and devleop multiple CMS websites."    },
+      desc: "Handled different websites of the agency and worked on improving the front-end using their CMS and web development coding techniques."    },
     {
       role: "Marketing intern",
-      company: "Dabchy.com - Tunis",
+      company: "Dabchy.com-HQ Tunis",
       companylogo: require("./assets/images/dabchylogo.png"),
       date: "July 2018 – August 2018",
-     descBullets: [
-    "   La participation à la mise en place et l'application de la stratégie Marketing digitale au sein de la société - La création du contenu pour les campagnes marketing ( réseaux sociaux et Fb Ads ) ",
-    "   L'animation de nos réseaux sociaux ( comptes FB et Instagram ) ",
-    "   La conception de certaines interfaces de l'application mobile en vue d'optimiser le UI/UX ",
-        ]
+      desc : "Designed a mobile app landing interface by applying my graphic , UI UX design skills and handled the company's social media accounts by applying their marketing strategy ."
     },
   ]
 };
@@ -252,29 +244,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Academic Projects",
+  subtitle: "SOME MAJOR PROJECTS THAT I WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/projeqtor.png"),
+      projectName: "Projeqtor X Talys",
+      projectDesc: "Business Intelligence Project (6-person team)",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check promo video",
+          url: "https://www.linkedin.com/posts/amiradoghri_datawarehousing-talend-datavisualizations-activity-6803341197092888576-4fGO/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/scrumify1.png"),
+      projectName: "Scrumify",
+      projectDesc: " Scrum Project Management Platform ( Web - Desktop - Mobile )",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Check promo video",
+          url: "https://drive.google.com/file/d/1YmBR9BAaNboVIaCJfclK9ik8b3J2BTj-/view?usp=sharing"
         }
       ]
     }
@@ -292,48 +284,36 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "She Solves! ",
+      subtitle: "Programming contest.           ",
+      image: require("./assets/images/shesolves.jpg"),
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        { name: "Certificate", url: "https://drive.google.com/file/d/1_9_gDwHdciHLGzL1Y3Ubc3TZ46CO9WsB/view?usp=sharing" },
+
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Coursera certificate - Cisco",
+      subtitle: "Data Communications and Network Services.",
+      image: require("./assets/images/cisco.jpg"),
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        { name: "Certificate", url: "https://drive.google.com/file/d/1OcTdJYtJ8egiib185tF8CkeDe6_uSwDH/view?usp=sharing" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Coursera certificate- Google",
+      subtitle: "Technical Support Fundamentals",
+      image: require("./assets/images/google.png"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        { name: "Certificat", url: "https://drive.google.com/file/d/17nwfKYppXaEodH0Y7lpTccP72cyuUqto/view?usp=sharing" },
+      ]
+    },
+    {
+      title: "Coursera certificate- deeplearning.ai",
+      subtitle: "AI for everyone                ",
+      image: require("./assets/images/deeplearning.png"),
+      footerLink: [
+        { name: "Certificate", url: "https://drive.google.com/file/d/1PoN6mLQHMm3pMSrjwsE9IpDoNPtMB5UG/view?usp=sharing" },
       ]
     }
   ],
@@ -343,41 +323,39 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Personal experiences",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "My extra-curricular activities and acheivements.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+   {
+      url: "https://fellows.taefund.org/profiles.php?id_article=100",
+      title: "TAEF Fellowship",
+      description: "The Tunisian American Entreprise Fund Fellowship is a program  that  helps students discover the professional world of startup and small businesses through an inernship matching program."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://drive.google.com/file/d/1hu582CuSLremI9EfqT34itW5KNofNV5Q/view?usp=sharing",
+      title: "Global Volunteering in Turkey - Istanbul",
+      description: "Volunteered as an english tutor for high school students in Istanbul : Led presentations and discussions about diverse topics to help them practice their English language."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Reference",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I was lucky enough to learn from the best from the first steps into the professional world 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Amani Mansouri,Co-fondatrice et CEO de Dabchy.com",
+      subtitle: "The CEO of the first company I worked in speaking of my experience as an intern.",
+      slides_url: "https://soundcloud.com/humansinbusiness/2-up-with-flat6labs?fbclid=IwAR2BmfEUO-NkIdD4vMr3STunWTLkph91S6fOQZ9aocJu5iMkEExsBxWGrOE",
+      event_url: "https://drive.google.com/file/d/1oIEZO32C2TvDKHbgNCkQJsWVWqVIXx6H/view?usp=sharing"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -393,22 +371,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? Feel free to contact me anytime.",
+  number: "+4915228112718",
+  email_address: "doghriamira@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
