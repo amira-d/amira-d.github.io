@@ -14,7 +14,7 @@ const greeting = {
 username: "Amira Doghri",
   title: " Hi all , I'm Amira DOGHRI",
   subTitle: emoji("A Software Engineering student 🚀 at ESPRIT - Tunisia, with a minor in Business Intelligence | Exchange student at SUAS - Germany | Currently working as a Dash Solutions Developer at Plotly - Canada."),
-  resumeLink: "https://drive.google.com/file/d/170v9_NgaOBG0aHgJilFOlJ5pSVKzplA3/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1_c9BohCPOTVXhLW5QvMw6friOftR1Ee7/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
