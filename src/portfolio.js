@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -352,7 +352,7 @@ const talkSection = {
 
   talks: [
     {
-      title: "Amani Mansouri,Co-fondatrice et CEO de Dabchy.com",
+      title: "Amani Mansouri,Co-founder and CEO of Dabchy.com",
       subtitle: "The CEO of the first company I worked in speaking of my experience as an intern.",
       slides_url: "https://soundcloud.com/humansinbusiness/2-up-with-flat6labs?fbclid=IwAR2BmfEUO-NkIdD4vMr3STunWTLkph91S6fOQZ9aocJu5iMkEExsBxWGrOE",
       event_url: "https://drive.google.com/file/d/1oIEZO32C2TvDKHbgNCkQJsWVWqVIXx6H/view?usp=sharing"
