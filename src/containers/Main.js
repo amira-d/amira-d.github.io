@@ -3,6 +3,7 @@ import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
+import Languages from "./languages/Languages";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
@@ -39,6 +40,7 @@ const Main = () => {
         <Projects />
         <StartupProject />
         <Achievement />
+        <Languages />
         <Blogs />
         <Talks />
         <Twitter />

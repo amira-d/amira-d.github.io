@@ -11,27 +11,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+username: "Amira Doghri",
+  title: " Hi all , I'm Amira DOGHRI",
+  subTitle: emoji("A Software Engineering student 🚀 at ESPRIT - Tunisia, with a minor in Business Intelligence | Exchange student at SUAS - Germany | Currently working as a Dash Solutions Developer at Plotly - Canada."),
+  resumeLink: "https://drive.google.com/file/d/170v9_NgaOBG0aHgJilFOlJ5pSVKzplA3/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/amira-d",
+  linkedin: "https://www.linkedin.com/in/amiradoghri/",
+  gmail: "doghriamira@gmail.com",
+  facebook: "https://www.facebook.com/amiradoghri",
+  instagram:"https://www.instagram.com/amira.doghri",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -39,15 +33,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My skills",
+  subTitle: "Working with different tools and following up the programming trends is my thing!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop Data analytics web apps/ Dashboards"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Working with Big data and Business intelligence tools"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Graphic Design"
     )
   ],
 
@@ -56,16 +50,12 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Dash",
+      fontAwesomeClassname: "fab fa-bar-chart"
     },
     {
       skillName: "JavaScript",
@@ -76,14 +66,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -92,21 +74,38 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "symfony",
+      fontAwesomeClassname: "fab fa-symfony"
+    },
+     {
+      skillName: "java/JEE/Spring/hibernate/jsf",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "c++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "c",
+      fontAwesomeClassname: "fab fa-cuttlefish"
+    },
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Adobe Illustrator/Photoshop/AfterEffects",
+      fontAwesomeClassname: "fab fa-adobe"
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -117,23 +116,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Private Higher School of Engineering and Technology - ESPRIT",
+      logo: require("./assets/images/espritLogo1.jpeg"),
+      subHeader: "Software Engineering Diplmoa",
+      duration: "September 2017 - Current",
+      desc: "Estimated graduation: July 2022",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Major in Software Engineering",
+        "Minor in Business Intelligence",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "ElWafa High School ",
+      logo: require("./assets/images/lyceeLogo.jpg"),
+      subHeader: "High school degree ",
+      duration: "Septembre 2016 - Juillet 2017",
+      desc: "",
+
     }
   ]
 };
@@ -158,37 +157,87 @@ const techStack = {
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
+// Your languages
 
+const languages = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+     {
+      Language: "Arabe",  //Insert stack or technology you have experience in
+      Proficiency: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Language: "Français",
+      Proficiency: "60%"
+    },
+    {
+      Language: "Anglais",
+      Proficiency: "70%"
+    },
+    {
+      Language: "Turque",
+      Proficiency: "30%"
+    },
+    {
+      Language: "Allemand",
+      Proficiency: "10%"
+    }
+  ],
+};
 // Work experience section
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      {
+      role: "Dash Solutions Developer",
+      company: "Plotly",
+      companylogo: require("./assets/images/plotly_logo_new-01.png"),
+      date: "September 2021 – Current",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
+      ]
+    },
+      {
+      role: "Dash solutions intern",
+      company: "Plotly",
+      companylogo: require("./assets/images/plotly_logo_new-01.png"),
+      date: "June 2021 – August 2021",
+      desc: "",
+      descBullets: [
+        "",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software engineering intern",
+      company: "Arab Tunisian Bank - HQ Tunis",
+      companylogo: require("./assets/images/atblogo.jpg"),
+      date: "Juillet 2020 – Août 2020",
+      desc: "A 2 months internship where I worked on a banking web applictaion project.",
+      descBullets: [
+        "Bank accounts and transactions management , loan simulation process.",
+        "Tools: JEE / Hibernate / JSF",
+        "Extra feature: RPA task automation for bankers"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Web development intern",
+      company: "IbComProd- Tunis",
+      companylogo: require("./assets/images/ibcomprod logo.jpg"),
+      date: "July 2019",
+      desc: "Maintain  and devleop multiple CMS websites."    },
+    {
+      role: "Marketing intern",
+      company: "Dabchy.com - Tunis",
+      companylogo: require("./assets/images/dabchylogo.png"),
+      date: "July 2018 – August 2018",
+     descBullets: [
+    "   La participation à la mise en place et l'application de la stratégie Marketing digitale au sein de la société - La création du contenu pour les campagnes marketing ( réseaux sociaux et Fb Ads ) ",
+    "   L'animation de nos réseaux sociaux ( comptes FB et Instagram ) ",
+    "   La conception de certaines interfaces de l'application mobile en vue d'optimiser le UI/UX ",
+        ]
+    },
   ]
 };
 
@@ -369,6 +418,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
+  languages,
   workExperiences,
   openSource,
   bigProjects,
