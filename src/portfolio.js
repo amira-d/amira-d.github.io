@@ -135,7 +135,7 @@ const educationInfo = {
       schoolName: "ElWafa High School ",
       logo: require("./assets/images/lyceeLogo.jpg"),
       subHeader: "High school degree ",
-      duration: "Septembre 2016 - Juillet 2017",
+      duration: "September 2016 - July 2017",
       desc: "",
 
     }
