@@ -1,20 +1,18 @@
-{
-  "short_name": "Amira Doghri Portfolio",
-  "name": "Amira Doghri Portfolio",
+{    "short_name": "AMIRA DOGHRI - Portfolio",
+  "name": "AMIRA DOGHRI - Portfolio",
   "icons": [
     {
-      "src": "/girl.png",
+      "src": "/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/pic.jpg?v8=qAJ44G5Bm7",
+      "src": "android-chrome-192x192l.png?v8=qAJ44G5Bm7",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/pic.jpg?v8=qAJ44G5Bm7",
-      "type": "image/png",
+      "src": "android-chrome-384x384l.png?v8=qAJ44G5Bm7",
       "sizes": "384x384"
     }
   ],
